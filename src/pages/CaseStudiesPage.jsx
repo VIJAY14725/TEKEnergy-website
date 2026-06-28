@@ -4,11 +4,13 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import CaseStudyCard from '@/components/CaseStudyCard.jsx';
 import { motion } from 'framer-motion';
+import Empowering from '@/assets/images/About/Empowering.png';
+import Modernizing from '@/assets/images/About/Modernizing.png';
 
 function CaseStudiesPage() {
   const caseStudies = [
     {
-      image: 'https://horizons-cdn.hostinger.com/6bcbb689-f1bb-4e76-bd0a-877aca1fb639/9f2c2048a1338bc517059d2cdcd69098.jpg',
+      image: {Empowering},
       title: 'Empowering Growth: Transforming Utilities Operations for Enhanced Customer Satisfaction',
       customer: 'The Electricity and Water Authority (Middle East)',
       challenges: 'The authority faced challenges with legacy billing systems, inefficient meter data management, and limited customer engagement capabilities. Manual processes led to billing errors and delayed customer service responses.',
@@ -21,7 +23,7 @@ function CaseStudiesPage() {
       ],
     },
     {
-      image: 'https://horizons-cdn.hostinger.com/6bcbb689-f1bb-4e76-bd0a-877aca1fb639/77a6ec7e90b2c422e78945ce802a7fd0.jpg',
+      image: {Modernizing},
       title: 'Empowering Growth - Modernizing Utilities Operations for Enhanced Customer Satisfaction',
       customer: 'The Electricity and Water Authority (North India)',
       challenges: 'The organization struggled with outdated infrastructure, high operational costs, and limited visibility into energy consumption patterns. Manual data collection processes resulted in inaccurate forecasting and resource allocation.',

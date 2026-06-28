@@ -5,6 +5,8 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import CaseStudyCard from '@/components/CaseStudyCard.jsx';
 import { ShieldCheck, Target, TrendingUp, Users, Zap, Award } from 'lucide-react';
+import Empowering from "@/assets/images/About/Empowering.png";
+import Modernizing from "@/assets/images/About/Modernizing.PNG";
 
 function AboutPage() {
   const differentiators = [
@@ -18,7 +20,7 @@ function AboutPage() {
 
   const caseStudies = [
     {
-      image: 'https://horizons-cdn.hostinger.com/6bcbb689-f1bb-4e76-bd0a-877aca1fb639/9f2c2048a1338bc517059d2cdcd69098.jpg',
+      image: Empowering,
       title: 'Empowering Growth: Transforming Operations',
       customer: 'Global Energy Authority',
       challenges: 'Legacy systems hindering operational speed and limiting customer engagement capabilities. High technical debt.',
@@ -30,7 +32,7 @@ function AboutPage() {
       ],
     },
     {
-      image: 'https://horizons-cdn.hostinger.com/6bcbb689-f1bb-4e76-bd0a-877aca1fb639/77a6ec7e90b2c422e78945ce802a7fd0.jpg',
+      image: Modernizing,
       title: 'Modernizing Digital Infrastructure',
       customer: 'Regional Service Provider',
       challenges: 'Siloed data systems, manual reporting processes, and inability to scale during peak demand.',
