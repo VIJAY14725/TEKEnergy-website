@@ -6,9 +6,8 @@ import Logo from "@/assets/images/Header/Logo.png"
 function Footer() {
   const quickLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Solutions', path: '/solutions' },
-    { name: 'Why Choose TEKenergy', path: '/why-tekenergy' },
-    { name: 'Case Studies', path: '/case-studies' },
+    { name: 'About', path: '/about' },
+    { name: 'Services', path: '/services' },
     { name: 'Contact', path: '/contact' },
   ];
 
