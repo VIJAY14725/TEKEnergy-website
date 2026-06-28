@@ -83,10 +83,10 @@ function ContactPage() {
                         <div>
                           <p className="font-medium text-foreground">Phone</p>
                           <a
-                            href="tel:+15551234567"
+                            href="tel:+12144557623"
                             className="text-muted-foreground hover:text-primary transition-colors duration-200"
                           >
-                            +1 (555) 123-4567
+                            +1 (214) 455-7623
                           </a>
                         </div>
                       </div>
@@ -98,9 +98,9 @@ function ContactPage() {
                         <div>
                           <p className="font-medium text-foreground">Office</p>
                           <p className="text-muted-foreground">
-                            123 Energy Plaza
+                            123 
                             <br />
-                            San Francisco, CA 94105
+                            Irving
                             <br />
                             United States
                           </p>

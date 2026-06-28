@@ -48,8 +48,14 @@ function Footer() {
           <div>
             <span className="font-semibold text-lg mb-4 block">Contact</span>
             <ul className="space-y-2 text-muted-foreground">
-              <li>Email: info@tekenergy.com</li>
-              <li>Phone: +1 (555) 123-4567</li>
+              <li>Email: info@tekenergyusa.com</li>
+              <a
+                            href="tel:+12144557623"
+                            className="text-muted-foreground hover:text-primary transition-colors duration-200"
+                          >
+                           Phone: +1 (214) 455-7623
+                          </a>
+
             </ul>
             <div className="flex items-center gap-4 mt-6">
               <a
