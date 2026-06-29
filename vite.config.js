@@ -7,6 +7,9 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      build: {
+        outDir: "D:\TEKEnergy\app\web>"
+      }
     },
   },
 });

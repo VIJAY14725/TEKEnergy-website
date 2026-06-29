@@ -96,13 +96,13 @@ function ContactPage() {
                           <MapPin className="h-6 w-6 text-accent" />
                         </div>
                         <div>
-                          <p className="font-medium text-foreground">Office</p>
+                          <p className="font-medium text-foreground">TEKEnergy LLC</p>
                           <p className="text-muted-foreground">
-                            123 
+                            USA-TEXAS 
                             <br />
-                            Irving
+                            511 E. John Capenter Fwy,
                             <br />
-                            United States
+                            Ste#500, Irving, TX 75063
                           </p>
                         </div>
                       </div>
